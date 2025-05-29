@@ -1,0 +1,55 @@
+# Ignore virtual environment
+venv/
+.env/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore logs and outputs
+*.log
+*.out
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore test results
+htmlcov/
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# Ignore notebooks (optional, uncomment if not using)
+# *.ipynb
+
+# Ignore images, generated media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+
+# Ignore archive or temp files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.tmp
+*.swp
+
+# Only include source code
+!*.py
+!*.txt
+!*/          # allow all folders (adjust if needed)

@@ -1,0 +1,12 @@
+torch
+transformers
+diffusers
+accelerate
+torchvision
+numpy
+Pillow
+gradio
+streamlit
+scipy
+ray
+pytest
